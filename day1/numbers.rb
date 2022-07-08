@@ -17,3 +17,20 @@
 # Modulus (find the remainder of division)
 8 % 2   #=> 0  (8 / 2 = 4; no remainder)
 10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
+
+# floats and integers
+17 / 5    #=> 3, not 3.4
+17 / 5.0  #=> 3.4
+# Converting Number Types
+# To convert an integer to a float:
+13.to_f   #=> 13.0
+
+# To convert a float to an integer:
+13.0.to_i #=> 13
+13.9.to_i #=> 13
+
+# Some Useful Number Methods
+6.even? #=> true
+7.even? #=> false
+6.odd? #=> false
+7.odd? #=> true
