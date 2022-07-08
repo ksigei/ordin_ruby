@@ -27,3 +27,16 @@ cash *= 2 #=> 20
 
 temperature = 40
 temperature /= 10 #=> 4
+# naming variables
+# Ruby allows you to name variables whatever you want.
+# You can use any character, but Ruby will not allow you to use the following characters:
+# =, +, -, *, /, %, <, >, <=, >=, ==, !=, &&, ||, !, ?, :, (, ), [, ], {, }, ,, ., ;, ==, +=, -=, *=, /=, %=, <<, >>, &=, |=, ^=, <<=, >>=, &&=, ||=, .., ..., =~, !~
+# use snake case
+## bad
+a = 19
+string = "John"
+
+# good
+age = 19
+name = "John"
+can_swim = false
