@@ -9,3 +9,8 @@ puts hash2["Size"]
 # puts hash2.size
 a = "Item"
 puts hash2.include? a
+
+# use loop 
+hash2.each do|key, value|
+    puts "#{key} : #{value}"
+end
